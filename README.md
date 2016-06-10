@@ -9,5 +9,6 @@ Simple to do list in JS to add, remove items from the list and have local storag
 | CSS      | Sass |
 | Task Runner      | Gulp |
 | Live Updating      | BrowserSync      |
-| Production Builds | JS and CSS are uglified and minified      |
+| Minification of js file | useref     |
+| Documentation | JSDoc     |
 
