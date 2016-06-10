@@ -1,0 +1,43 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 30px;
+  margin: auto; }
+
+header, h4, h2, p {
+  display: inline; }
+
+a,
+a:link {
+  outline: none; }
+
+#myForm {
+  padding: 20px 20px 0 0; }
+
+input[type="text"] {
+  height: 30px;
+  width: 350px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 24px; }
+
+input[type="submit"] {
+  height: 56px;
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #ccc;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none; }
+
+#items {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 20px 0; }
+
+#dupAlert {
+  color: red;
+  font-style: italic; }

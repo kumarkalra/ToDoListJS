@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title>To Do List</title>
+  	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body> 
+	<header><h2>TO Do List App - </h2> <h4> Total items in the list are: <p id="count"></p> </h4></header>  
+	<form id="myForm">
+		<input type="text" id="addItem"/>   
+		<input type="submit" value="Add more items" onClick="addItems();">
+	</form>
+	<div id="dupAlert"></div>
+	<br>
+	<h3>Click X to delete</h3>
+	<!-- The list of items is displayed in the following div -->    
+	<div id="items"</div>
+	
+	<!--build:js js/app.min.js -->
+  	<script type="text/javascript" src="js/app.js"></script>
+  	<!-- endbuild -->
+  </body>
+</html>
